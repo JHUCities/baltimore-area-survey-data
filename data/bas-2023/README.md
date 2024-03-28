@@ -1,7 +1,14 @@
 2023 Baltimore Area Survey
 ==========================
 
-Data for the 2023 Baltimore Area Survey may be found in this directory. Data are saved in a comma-delimited-format file and as an `.Rdata` file for use with R software and are documented on the [documentation page](https://jhucities.github.io/baltimore-area-survey-data/bas-2023).
+Data for the 2023 Baltimore Area Survey may be found in this directory. Documentation of the data, including data collection methods and a codebook, are included on the [documentation page](https://jhucities.github.io/baltimore-area-survey-data/bas-2023).
+
+Data Format
+-----------
+
+The canonical version of the data are saved as a comma separated value (.csv) format in the file `baltimore-area-survey-2023.csv`. 
+
+The data are also saved in `.Rdata` format that convert the categorical variables to factor and apply labels. These data are saved to the object `bas23` in the file `baltimore-area-survey-2023.Rdata`. This file is provided for convenience. The canonical CSV data should be used as the primary source of data. 
 
 Weighting
 ---------
@@ -36,7 +43,9 @@ load("data/bas-2023/baltimore-area-survey-2023.Rdata")
 bassvy <- svydesign(~1, weights = ~bas23_svy_fwgt, data = bas23)
 ```
 
-Other statistical packages such as Stata, SAS, SPSS, or Python will require different methods. You should view the documentation for commands in those packages to apply survey weights. 
+Other statistical packages such as Stata, SAS, SPSS, or Python will require different methods ([examples][] for applying survey weights using other software packages are available from the Office of Advanced Research Computing at UCLA). You should view the documentation for commands in those packages to apply survey weights. 
+
+[examples]: https://stats.oarc.ucla.edu/other/mult-pkg/faq/faq-choosing-the-correct-analysis-for-various-survey-designs/
 
 Citation
 --------
