@@ -1,9 +1,11 @@
 tab:sample-rates-cnty
 tab:sample-rates-city
+fig:meth-logos
 tab:disposition
 tab:fin-employed-other
 tab:dem-race-other
 overview
+data
 background
 themes-and-objectives
 key-personnel
@@ -22,7 +24,7 @@ pen-and-paper-personal-interview
 respondent-incentives
 field-experiments
 logo-experiment
-incentive-visibility
+visibility-experiment
 response-rate
 weighting
 base-weights
