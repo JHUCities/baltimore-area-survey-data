@@ -6,4 +6,4 @@ Data for the 2024 Baltimore Area Survey may be found in this directory. Document
 Citation
 --------
 
-Bader, Michael DM, Mac McComas, Alexi Williams, Claire Shin, Kabir Broker, Aron Einbinder, Jason Shumsky. 2025. “Baltimore Area Survey 2024.” Version 1.0. January 23, 2025. https://github.com/JHUCities/baltimore-area-survey-data/.
+Bader, Michael DM, Mac McComas, Alexi Williams, Claire Shin, Kabir Broker, Aron Einbinder, Jason Shumsky, Jessica Van Tassel. 2025. “Baltimore Area Survey 2024.” Version 1.0. January 23, 2025. https://github.com/JHUCities/baltimore-area-survey-data/.
