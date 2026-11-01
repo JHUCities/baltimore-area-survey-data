@@ -1,13 +1,3 @@
 .Rapp.history
 docs/index.md
 .DS_Store
-
-# Claude Code project instructions — local only
-CLAUDE.md
-
-# rsconnect deployment metadata — auto-generated, account-specific
-rsconnect/
-
-# R session artifacts (workspace auto-saves — not the survey data files)
-.RData
-.Rhistory
